@@ -23,9 +23,8 @@ Articles are displayed from HackerNews
 
 
 Note:
-
 Deleting of articles is not functional
-I have Heroku deployment but it is also not functional, however it works locally
+
 
 
 
