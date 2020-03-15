@@ -43,7 +43,7 @@ router.get("/saved", function(req, res) {
       } else {
         console.log(articles);
         let hbsObj = {
-          title: "News Scraper",
+          title: "Haker News",
           subtitle: "",
           articles: articles
         };

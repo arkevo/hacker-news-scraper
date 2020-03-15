@@ -115,9 +115,9 @@ router.get(
             .text(),
           link = $(this)
             .children("a")
-            .attr("https"),
+            .attr("url"),
           single = {};
-        if (link !== undefined && link.includes("https") && title !== "") {
+        if (link !== undefined && link.includes("url") && title !== "") {
           single = {
             title: title,
             link: link
