@@ -20,7 +20,7 @@ app
 
 mongoose.Promise = Promise;
 
-const dbURI = process.env.MONGODB_URI || "mongodb://localhost/mongoNews";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoNews";
 
 mongoose.connect(MONGODB_URI);
 
