@@ -22,7 +22,7 @@ mongoose.Promise = Promise;
 
 const dbURI = process.env.MONGODB_URI || "mongodb://localhost/mongoNews";
 
-mongoose.connect(dbURI);
+mongoose.connect(MONGODB_URI);
 
 const db = mongoose.connection;
 

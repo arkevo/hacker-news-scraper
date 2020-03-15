@@ -22,7 +22,10 @@ Articles are displayed from HackerNews
 * Save an articl
 
 
-Could not get the deleting of articles to work. 
+Note:
+
+Deleting of articles is not functional
+I have Heroku deployment but it is also not functional, however it works locally
 
 
 
