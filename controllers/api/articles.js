@@ -102,7 +102,7 @@ router.delete("/:id", function(req, res) {
 router.get(
   "/scrape",
   function(req, res, next) {
-    request("https://hacker-news.firebaseio.com", function(
+    request("https://news.ycombinator.com/", function(
       error,
       response,
       html
@@ -115,9 +115,9 @@ router.get(
             .text(),
           link = $(this)
             .children("a")
-            .attr("http"),
+            .attr("https"),
           single = {};
-        if (link !== undefined && link.includes("http") && title !== "") {
+        if (link !== undefined && link.includes("https") && title !== "") {
           single = {
             title: title,
             link: link
