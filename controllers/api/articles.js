@@ -100,7 +100,7 @@ router.delete("/:id", function(req, res) {
 });
 
 router.get(
-  "/scrape",
+  "/newArticles",
   function(req, res, next) {
     request("https://news.ycombinator.com/", function(
       error,
