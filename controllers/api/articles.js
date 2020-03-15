@@ -117,7 +117,7 @@ router.get(
             .children("a")
             .attr("href"),
           single = {};
-        if (link !== undefined && link.includes("href") && title !== "") {
+        if (link !== undefined && link.includes("http") && title !== "") {
           single = {
             title: title,
             link: link
